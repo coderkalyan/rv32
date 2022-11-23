@@ -1,0 +1,20 @@
+[tasks]
+cover
+bmc
+
+[options]
+bmc: mode bmc
+cover: mode cover
+depth 128
+multiclock on
+
+[engines]
+cover: smtbmc z3
+bmc: smtbmc z3
+
+[script]
+read_ilang testbench.il
+prep -top top
+
+[files]
+testbench.il

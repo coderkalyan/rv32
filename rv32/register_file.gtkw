@@ -1,0 +1,8 @@
+[dumpfile] "/home/kalyan/Documents/rv32/rv32/register_file.vcd"
+[dumpfile_size] 5904
+[treeopen] top.
+@22
+bench.top.rf.addr[4:0]
+bench.top.rf.data[31:0]
+bench.top.rf.load[31:0]
+bench.top.rf.write_enable
